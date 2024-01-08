@@ -10,3 +10,8 @@ RAG combines an information retrieval component with a text generator model. RAG
 RAG takes an input and retrieves a set of relevant documents given a source (a set of documents). The documents are concatenated as context with the original input prompt and fed to the text generator which produces the final output. This makes RAG adaptive for situations where facts could evolve over time. This is very useful as LLM’s parametric knowledge is static. RAG allows language models to bypass retraining, enabling access to the latest information for generating reliable outputs via retrieval-based generation.
 
 The chatbot created in this project first takes the user documents as input i.e. the external knowledge for factual information, then creates the vector embeddings of the input documents and store them in vector database. Now it's ready to answer any questions related to the documents, the answer that are more factually correct.
+
+https://github.com/vaishaliag08/Retrieval-Augmented-Generation/assets/68223127/728a512c-2672-44d8-a538-01e90312c3a1
+
+
+
